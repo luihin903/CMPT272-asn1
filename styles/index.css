@@ -1,0 +1,25 @@
+section {
+    float: none;
+}
+
+summary.business, summary.cs {
+    display: none;
+}
+
+h3 {
+    margin-bottom: -16px;
+}
+
+li.business:hover + summary.business {
+    display: block;
+}
+
+li.cs:hover + summary.cs {
+    display: block;
+}
+
+@media only screen and (min-width: 550px) {
+    section {
+        float: left;
+    }
+}
