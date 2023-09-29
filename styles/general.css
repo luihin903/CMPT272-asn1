@@ -8,19 +8,11 @@ html {
 header {
     background-color: #37474f;
     color: white;
+    height: 140px;
 }
 
 h1 {
-    padding: 24px;
-}
-
-section {
-    width: 48%;
-}
-
-p {
-    padding: 24px;
-    padding-bottom: 0px;
+    margin: 40px;
 }
 
 a {

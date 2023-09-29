@@ -1,5 +1,6 @@
 section {
     float: none;
+    width: 48%;
 }
 
 summary.business, summary.cs {
@@ -8,6 +9,11 @@ summary.business, summary.cs {
 
 h3 {
     margin-bottom: -16px;
+}
+
+p {
+    padding: 24px;
+    padding-bottom: 0px;
 }
 
 li.business:hover + summary.business {

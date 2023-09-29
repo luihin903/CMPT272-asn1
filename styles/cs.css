@@ -1,0 +1,62 @@
+section {
+    background-color: white;
+    width: 22%;
+    height: 460px;
+    float: left;
+    margin: 16px;;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    padding: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+button {
+    opacity: 0;
+    background-color: #fe6e3f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+    margin: 24px;
+    cursor: pointer;
+    transition: opacity 0.75s;
+}
+
+a {
+    font-size: 16px;
+}
+
+section:hover {
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+section.one:hover button.one {
+    opacity: 1;
+}
+
+section.two:hover button.two {
+    opacity: 1;
+}
+
+section.three:hover button.three {
+    opacity: 1;
+}
+
+section.four:hover button.four {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 480) {
+    section {
+        float: none;
+    }
+}
